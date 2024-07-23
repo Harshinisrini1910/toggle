@@ -1,12 +1,13 @@
-import React from "react";
-import ToggleComponent from "./Components/ToggleComponent/ToggleComponent";
-import "./App.css";
-function App() {
+// App.js
+import React from 'react';
+import StudentCard from './StudentCard';
+
+const App = () => {
   return (
     <div>
-      <ToggleComponent>ToggleComponent</ToggleComponent>
+      <StudentCard />
     </div>
   );
-}
+};
 
 export default App;
