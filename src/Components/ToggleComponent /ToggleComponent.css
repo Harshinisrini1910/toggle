@@ -1,0 +1,62 @@
+* {
+    background-color:skyblue;
+  }
+  
+  .small {
+    display: flex;
+    align-items: center;
+  }
+  
+  .large {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: white;
+    height: 350px;
+    width: 700px;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 175px auto;
+  }
+  
+  .large img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  }
+  
+  .large h3 {
+    background-color: white;
+    font-size: 30px;
+  }
+  
+  .large h5 {
+    font-size: 22px;
+    background-color: white;
+  }
+  
+  .btn .click {
+    cursor: pointer;
+    width: 150px;
+    height: 65px;
+    background-color: rgb(32, 94, 217);
+    color: white;
+    font-size: 20px;
+  }
+  
+  .large p {
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  .small .content {
+    background-color: white;
+  }
+  
+  .btn .content p {
+    background-color: white;
+  }
